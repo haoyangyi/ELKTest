@@ -1,0 +1,4 @@
+# ELKTest
+logstash+kafka+spark streaming
+logstash收集日志打入kafka，kafka流式使用spark streaming direct模式处理
+direct模式的偏移量实现是一个难点，本demo使用的基于zookeeper的实现
